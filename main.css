@@ -29,6 +29,7 @@ ul li{
 
 hero-section{
    margin-top: 10%;
+   margin-bottom: 25%;
    line-height: 10px;
    display:block;
    text-align: center;
@@ -43,4 +44,37 @@ hero-section button{
    border: rgb(75, 75, 75) solid 2px;
    border-radius: 5px;
    cursor: pointer; 
+}
+/* Services section styles */
+
+service-section{
+   margin-top: 5%;
+   text-align: center;
+}
+service-section h1{
+   font-size: 45px;
+   margin: 80px 0px 50px 0px;
+}
+service-section h2{
+   margin-top: 60px;
+   font-size: 35px;
+}
+service-section p{
+   font-size: 20px;
+   text-align-last: center;
+   margin: 0px 25% 0px 25%;
+}
+.prices{
+   margin: 0px 30% 0px 30%;
+}
+.prices h3{
+   text-align: left;
+   font-size: 25px;
+   margin: 25px 0px 10px 0px;
+}
+.prices h4{
+   text-align: left;
+   color: rgb(160, 25, 25);
+   font-size: 20px;
+   margin: 0px 0px 5px 0px;
 }
