@@ -94,3 +94,15 @@ gofw-section img{
    margin: 3px;
    border: rgb(75, 75, 75) solid 2px;
 }
+/*feedback section styles*/
+feedback-section{
+   margin-top: 5%;
+}
+feedback-section p{
+   font-size: 22px;
+   margin: 0px 20% 0px 20%;   
+}
+feedback-section h3{  
+   font-size: 25px;
+   margin: 5px 20% 30px 20%;
+}
