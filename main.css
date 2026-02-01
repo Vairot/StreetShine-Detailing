@@ -102,7 +102,41 @@ feedback-section p{
    font-size: 22px;
    margin: 0px 20% 0px 20%;   
 }
-feedback-section h3{  
+feedback-section h3{
    font-size: 25px;
-   margin: 5px 20% 30px 20%;
+   margin: 5px 20% 20px 20%;
+}
+
+/* Contact form styles */
+contacts-section a{
+   color: brown;
+   text-decoration: none;
+}
+div.feedback-form{
+   width: 40%;
+   margin: 0px 20% 50px 20%;
+   box-sizing: border-box;
+}
+input{
+   border-color: brown;
+   border-radius: 5px;
+   font-size: 15px;
+   width: 40%;
+}
+textarea{
+   border-color: brown;
+   border-radius: 5px;
+   font-size: 15px;
+   width: 82%;
+   margin: 5px 0px 0px 0px;
+}
+button{
+   background-color: rgb(160, 25, 25);
+   color: white;
+   font-size: 20px;
+   margin: 5px 0px 0px 0px;
+   padding: 10px 20% 10px 20%;
+   border: rgb(75, 75, 75) solid 2px;
+   border-radius: 5px;
+   cursor: pointer; 
 }
