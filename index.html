@@ -8,20 +8,21 @@
       <link rel="stylesheet" href="main.css">
    </head>
 <body>
-   <header>
+   <header id ="header">
       <h1>SSD</h1>
       <ul>
-         <li>Services</li>
-         <li>Galary of Works</li>
-         <li>Contacts</li>
+         <li id="li00">Services</li>
+         <li id="li01">Galary of Works</li>
+         <li id="li02">Feedback</li>
       </ul>
    </header>
-   <hero-section>
+   <hero-section id="hero">
       <h1>StreetShine Detailing</h1>
       <h4>Let's restore the shine to your car</h4>
-      <button>Sign up / Contact</button>
+      <button id="BtnContact">Contact Us</button>
+      <script type="module" src="script.js"></script>
    </hero-section>
-   <service-section>
+   <service-section id="services">
       <h1>Professional Auto Detailing & Paint Protection</h1>
       <p>We provide high-quality auto detailing services designed to restore, protect, and enhance the appearance of your vehicle. Using professional-grade products and proven techniques, we focus on precision, durability, and visible results.</p>
       <p>Our services are suitable for daily drivers, leased vehicles, and enthusiast cars. Every vehicle is inspected individually to ensure the most effective treatment.</p>
@@ -57,7 +58,7 @@
          <h4>from €600</h4>
    </div>
    </service-section>
-   <gofw-section>
+   <gofw-section id="gallery">
       <h1>Galary of Works</h1>
       <images class="gofw-images">
          <a target="_blank" href="img/img1.jpg">
@@ -78,7 +79,8 @@
          <a target="_blank" href="img/img6.jpg">
          <img src="img/img6.jpg" alt="Car Detailing 6">
       </a>
-   <feedback-section>
+   </gofw-section>
+   <feedback-section id="feedback">
       <h1>What people says about my Work?</h1>
       <div class="feedback">
          <div class="feedback-item">
@@ -94,7 +96,7 @@
             <h3>— Practice Project Review</h3>
          </div>
    </feedback-section>  
-   <contacts-section>
+   <contacts-section id="contacts">
       <h1>Contacts</h1>
       <h3>Tel: +49 175 655 2797</h3>
       <h3>Address: <a href="https://www.google.com/maps/place/%D0%9C%D1%96%D0%BD%D0%B4%D0%B5%D0%BD/@52.3059982,8.8951681,11z/data=!3m1!4b1!4m6!3m5!1s0x47ba7404fae075b3:0xd0f08c41845c0955!8m2!3d52.2923549!4d8.9160539!16zL20vMDE4eGt6?entry=ttu&g_ep=EgoyMDI1MDkxNC4wIKXMDSoASAFQAw%3D%3D">Minden, 32425</a></h3>
@@ -106,6 +108,12 @@
             <textarea name="message" placeholder="Your Message" required></textarea>
             <button type="submit">Send</button>
          </form>
-   </contacts-section> 
+      </div>
+   </contacts-section>
+   <button id="BtnTop" title="top">Top</button>
+   <footer>
+      <p>&copy; 2026 StreetShine Detailing.   Let's restore the shine to your car.</p>
+   </footer>
+   
 </body>
 </html>
