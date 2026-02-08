@@ -184,4 +184,92 @@ footer{
    padding: 30px 0px 30px 0px;
    margin-top: 50px;
 }
-/* button*/
+
+/* @media atyles */
+@media (max-width: 768px) {
+   header h1{
+      font-size: 25px;
+   }
+   ul li{
+      font-size: 14px;
+      padding: 0px 10px 0px 5px;
+   }
+   hero-section{
+      font-size: 20px;
+   }
+   hero-section button{
+      font-size: 16px;
+      padding: 8px 16px 8px 16px;
+   }
+   service-section h1{
+      font-size: 30px;
+      margin: 50px 0px 30px 0px;
+   }
+   gofw-section h1{
+      font-size: 30px;
+      margin: 50px 0px 30px 0px;
+   }
+   gofw-section img{
+      width: 230px;
+      margin: 3px;
+   }
+   feedback-section h1{
+      font-size: 30px;
+      margin: 50px 0px 30px 0px;
+   }
+   service-section h2{
+      margin-top: 40px;
+      font-size: 25px;
+   }
+   service-section p{
+      font-size: 16px;
+      margin: 0px 10% 0px 10%;
+   }
+   gofw-section p{
+      font-size: 16px;
+      margin: 0px 10% 0px 10%;
+   }
+   feedback-section p{
+      font-size: 16px;
+      margin: 0px 10% 0px 10%;
+   }
+   feedback-section h3{
+      font-size: 20px;
+      margin: 5px 10% 10px 10%;
+   }
+   feedback-section form{
+      width: 80%;
+      margin: 0px 10% 30px 10%;
+   }
+   div.feedback-form{
+      width: 39%;
+      margin: 0px 10% 30px 6%;
+   }
+   input{
+      width: 45%;
+   }
+   textarea{
+      width: 100%;
+   }
+   button{
+      font-size: 15px;
+      padding: 5px 40% 5px 40%;
+   }
+
+   #BtnTop{
+      padding: 8px 12px;
+      font-size: 14px;
+   }
+
+   .prices{
+      margin: 0px 15% 0px 15%;
+   }
+   .prices h3{
+      font-size: 20px;
+      margin: 15px 0px 5px 0px;
+   }
+   .prices h4{
+      font-size: 16px;
+      margin: 0px 0px 3px 0px;
+   }
+}
